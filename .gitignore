@@ -1,0 +1,24 @@
+# Java Bytecode and Build Artifacts
+bin/
+*.class
+target/
+build/
+out/
+
+# Bundled portable local JDK (prevents pushing 200MB+ binaries)
+.jdk/
+
+# IDE and Editor configurations
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS and Temporary Files
+Thumbs.db
+.DS_Store
+sources.txt
+manifest.txt
+*.log
